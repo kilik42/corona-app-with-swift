@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct StateData: Codable{
+    var state: String
+    var positive: Int
+    
+}
